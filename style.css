@@ -1,0 +1,45 @@
+
+*{
+    font-family: cursive;
+}
+.mainDiv{
+    width: 300px;
+    border: 2px solid transparent;
+    height: 450px;
+    margin: 0 auto;
+    box-shadow: 20px 20px 50px 10px rgb(196, 194, 194) inset;
+    border: 2px solid black;
+}
+input{
+    background-color: transparent;
+    border: 0px solid;
+    height: 80px;
+    width: 296px;
+    color: black;
+    font-size: 50px;
+    text-align: right;
+    font-weight: bolder;
+    border-bottom: 2px gray solid;
+}
+input:focus{
+    outline: none !important;
+}
+button{
+    background-color: transparent;
+    font-size: 50px;
+    width: 75px;
+    border: none;
+    color:  black;
+}
+button:hover{
+    background-color: rgb(182, 180, 180);
+    box-shadow: 5px 5px 15px grey;
+    border-radius: 5px;
+}
+button:focus{
+    background-color: rgb(182, 180, 180);
+    box-shadow: 5px 5px 15px grey;
+    border-radius: 5px;
+
+}
+
