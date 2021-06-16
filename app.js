@@ -2,7 +2,7 @@
     function calc(num){
         var data = document.getElementById('screen')
         var lastvalue = data.value.slice(-1)
-        var operations = ['+','-','*','/',]
+        var operations = ['+','-','*','/','.']
         // agar calculator ko first condition na 1 milla to is ka matlab ka user na koi number
         //  press kia ha kion ka aghar wo operation press karta to us ko opeeratin walee array 
         // sa wo operation mill jata aur condition !== Walee sahi ho jai gi.
